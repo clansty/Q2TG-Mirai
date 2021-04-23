@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Platforms>x64</Platforms>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+    <LangVersion>8</LangVersion>
+    <RootNamespace>Clansty.tianlang</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LevelDB.Standard" Version="2.1.6.1" />
+    <PackageReference Include="Mirai-CSharp" Version="1.0.2.2-preview.4" />
+    <PackageReference Include="Telegram.Bot" Version="15.7.1" />
+  </ItemGroup>
+
+</Project>
